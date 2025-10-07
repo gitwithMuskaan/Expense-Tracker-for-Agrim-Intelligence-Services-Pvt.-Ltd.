@@ -1,75 +1,84 @@
-# Expense-Tracker-for-Agrim-Intelligence-Services-Pvt.-Ltd.
-The Expense Tracker is a browser-based web application designed to help users record, view, and analyze their daily expenses efficiently.
-It allows adding, filtering, and deleting expenses while displaying spending statistics through a clean and responsive interface.
+# Personal Expense Tracker
 
-This project was developed as part of the AI-Powered Development Assignment by Agrim Intelligence Services Pvt. Ltd., utilizing Cursor AI for assisted development.
+A lightweight, browser-only expense tracker built for the Agrim Intelligence Services Private Limited AI-Powered Development Assignment.
 
-Features
+- Frontend: HTML, CSS, JavaScript
+- UI: Bootstrap 5
+- Storage: localStorage
+- Bonus: CSV export + Chart.js pie chart
 
-Add Expenses: Input amount, category, date, and optional description.
+## How to Run
 
-View Expenses: Display expenses in an organized list with delete functionality.
+1. Download or clone this repository.
+2. Open `index.html` in any modern browser (no build step required).
 
-Filter Options: Filter by category and date range, with a clear filter option.
+## Features Implemented
 
-Statistics Dashboard:
+- Add expenses with amount, category, date, and optional description
+- Inline form validation (positive amount, category required, no future date)
+- Persistent storage using `localStorage`
+- Expense list with delete per item
+- Filters: category and date range (from/to), clear option
+- Statistics: total spending, number of transactions, top category, per-category spending
+- Bonus features:
+  - CSV export of filtered expenses
+  - Chart.js pie chart for category spending
+- Responsive and clean Bootstrap UI with subtle hover interactions
 
-Total spending
+## Screenshots
 
-Spending by category
+See `/screenshots/`:
+- Adding an expense
+- Filtering view
+- Statistics with chart
 
-Number of transactions
+## Folder Structure
 
-Interactive pie chart with category labels
+```
+expense-tracker/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── screenshots/
+```
 
-Data Persistence: All data is stored locally using localStorage.
+## Cursor Prompts Used
 
-Responsive UI: Modern and mobile-friendly layout with improved design.
+1. "Create a Bootstrap-based layout with a form, filters, stats, table, and chart canvas for an expense tracker."
+2. "Implement localStorage CRUD for expenses and render a table with delete actions and validation."
+3. "Add category and date-range filtering functions and wire them to inputs for dynamic updates."
+4. "Compute and display statistics (total, count, top category) and render a Chart.js pie chart."
+5. "Add CSV export for filtered expenses and polish responsive styles."
 
-Bonus Feature: Includes an enhanced visual dashboard with a labeled pie chart and summary cards.
+## How Cursor Helped
 
-Tech Stack
+- Structured the implementation into atomic tasks and iterated quickly on UI and logic.
+- Parallel file edits with immediate previews improved productivity.
+- Automated code quality checks and quick adjustments reduced regressions.
 
-Frontend: HTML, CSS, JavaScript
+## Notable Code Decisions
 
-Styling: TailwindCSS / Custom CSS
+- `localStorage` key namespaced as `expense-tracker:expenses` for clarity.
+- Validation uses basic checks and Bootstrap invalid styles; future-proofed for extension.
+- Chart rebuilds on every filter change for correctness and simplicity.
+- CSV export respects current filters and properly escapes cells with quotes or commas.
 
-Storage: Browser LocalStorage
+## Challenges & Solutions
 
-Charting: Chart.js
+- Date validation and timezones: normalized comparisons using `endOfDay` and `YYYY-MM-DD` inputs to avoid off-by-one errors.
+- Keeping chart in sync with filters: destroyed and recreated the chart on each render cycle.
+- Ensuring robust persistence: normalized records on load to guard against malformed data.
 
-How to Run
+## Bonus Feature Explanation
 
-Clone the repository:
+- Implemented CSV export for all (filtered) expenses via a generated Blob download.
+- Implemented a category spending pie chart with Chart.js for quick visual insights.
 
-git clone <repository_link>
-cd expense-tracker
+## Time Spent
 
+~3–4 hours including UI, logic, testing validations, and documentation.
 
-Open index.html in your browser.
+## License
 
-Add expenses, apply filters, and view statistics instantly.
-
-Cursor AI Usage
-
-Cursor AI was used to:
-
-Generate base layout and form components.
-
-Implement localStorage logic for saving and deleting expenses.
-
-Refine UI with styling enhancements and animations.
-
-Adjust Chart.js configuration to display smaller, labeled pie charts.
-
-Challenges and Solutions
-
-Challenge: The default pie chart appeared oversized and visually unbalanced.
-Solution: Reduced chart dimensions and added internal labels using Chart.js data labels plugin.
-
-Challenge: The initial layout lacked visual clarity.
-Solution: Reorganized structure into sections with better spacing, shadows, and consistent colors.
-
-Time Spent
-
-Approx. 3 hours including design improvements and testing.
+MIT
