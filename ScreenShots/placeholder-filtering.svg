@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f6f8fb"/>
+  <rect x="60" y="60" width="1080" height="80" rx="8" fill="#0d6efd"/>
+  <text x="80" y="112" font-family="Inter, Arial" font-size="28" fill="#ffffff">Personal Expense Tracker - Filtering</text>
+  <rect x="60" y="180" width="1080" height="100" rx="12" fill="#ffffff" stroke="#dfe3ea"/>
+  <rect x="80" y="205" width="220" height="40" rx="8" fill="#eef2f7"/>
+  <rect x="320" y="205" width="220" height="40" rx="8" fill="#eef2f7"/>
+  <rect x="560" y="205" width="220" height="40" rx="8" fill="#eef2f7"/>
+  <rect x="800" y="205" width="140" height="40" rx="8" fill="#0d6efd"/>
+  <text x="830" y="232" font-family="Inter, Arial" font-size="16" fill="#fff">Clear</text>
+  <rect x="60" y="300" width="1080" height="315" rx="12" fill="#ffffff" stroke="#dfe3ea"/>
+  <text x="80" y="335" font-family="Inter, Arial" font-size="20" fill="#222">Filtered Expenses</text>
+</svg>
+

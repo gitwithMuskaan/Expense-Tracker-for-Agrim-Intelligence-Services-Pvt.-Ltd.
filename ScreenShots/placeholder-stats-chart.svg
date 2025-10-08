@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f6f8fb"/>
+  <rect x="60" y="60" width="1080" height="80" rx="8" fill="#0d6efd"/>
+  <text x="80" y="112" font-family="Inter, Arial" font-size="28" fill="#ffffff">Personal Expense Tracker - Statistics & Chart</text>
+  <rect x="60" y="180" width="520" height="420" rx="12" fill="#ffffff" stroke="#dfe3ea"/>
+  <text x="80" y="220" font-family="Inter, Arial" font-size="20" fill="#222">Statistics</text>
+  <rect x="80" y="240" width="480" height="40" rx="8" fill="#eef2f7"/>
+  <rect x="80" y="290" width="480" height="40" rx="8" fill="#eef2f7"/>
+  <rect x="80" y="340" width="480" height="40" rx="8" fill="#eef2f7"/>
+  <rect x="600" y="180" width="540" height="420" rx="12" fill="#ffffff" stroke="#dfe3ea"/>
+  <text x="620" y="220" font-family="Inter, Arial" font-size="20" fill="#222">Pie Chart</text>
+  <circle cx="870" cy="380" r="120" fill="#eaeffd" stroke="#b5c2ff" stroke-width="2"/>
+</svg>
+

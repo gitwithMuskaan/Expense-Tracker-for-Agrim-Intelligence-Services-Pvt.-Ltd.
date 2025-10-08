@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f6f8fb"/>
+  <rect x="60" y="60" width="1080" height="80" rx="8" fill="#0d6efd"/>
+  <text x="80" y="112" font-family="Inter, Arial" font-size="28" fill="#ffffff">Personal Expense Tracker - Adding Expense</text>
+  <rect x="60" y="180" width="420" height="420" rx="12" fill="#ffffff" stroke="#dfe3ea"/>
+  <text x="80" y="220" font-family="Inter, Arial" font-size="20" fill="#222">Add Expense</text>
+  <rect x="80" y="240" width="380" height="38" rx="6" fill="#eef2f7"/>
+  <rect x="80" y="290" width="380" height="38" rx="6" fill="#eef2f7"/>
+  <rect x="80" y="340" width="380" height="38" rx="6" fill="#eef2f7"/>
+  <rect x="80" y="390" width="380" height="38" rx="6" fill="#eef2f7"/>
+  <rect x="80" y="450" width="380" height="44" rx="8" fill="#0d6efd"/>
+  <text x="240" y="480" font-family="Inter, Arial" font-size="16" fill="#fff">Add Expense</text>
+  <rect x="510" y="180" width="630" height="420" rx="12" fill="#ffffff" stroke="#dfe3ea"/>
+  <text x="530" y="220" font-family="Inter, Arial" font-size="20" fill="#222">List / Stats Area</text>
+</svg>
+
